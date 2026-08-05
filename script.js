@@ -267,7 +267,7 @@
                 releaseYear: "2026",
                 language: "العربية + متعدد اللغات",
                 videoId: "WCUhRdcLcRY",
-                version: "v3.3.0",
+                version: "v3.5.2",
                 onlineStatus: true, // متاح اونلاين
                 systemRequirements: {
                     minimum: {
@@ -286,9 +286,9 @@
                     }
                 },
                 downloadLinks: [
-                    { name: "تحميل اللعبة", url: "https://linkjust.com/RX2mfnS08PbgX", icon: "fas fa-download" },
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/fPDKzn", icon: "fas fa-download" },
                     { name: "ملف الاونلاين", url: "https://gofile.io/d/PS0BYh", icon: "fas fa-download" },
-                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/msm4R6X", icon: "fas fa-download" }
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/fPDKzn", icon: "fas fa-download" }
                 ]
             },
             forestescapelast: {
