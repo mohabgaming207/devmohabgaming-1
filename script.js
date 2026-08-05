@@ -183,7 +183,115 @@
 
         // Enhanced Data with Online Status Control
         const gamesData = {
-        dirtybusiness: {
+        bigwalk: {
+                title: "Big Walk",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1478500/fdcb59d7679058d65e9d5200ef696ffa6070c9a2/capsule_616x353.jpg?t=1785911674.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "492MB",
+                developer: "Big Walk",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.4.7.2607311502",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/eMXUqgjuDufw", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/jD0g7J", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/bDhtVKajKO9", icon: "fas fa-download" }
+                ]
+            },
+            malltogether: {
+                title: "Mall Together",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4668890/348b9eb36ec3023a50088501f495ac1b4477da67/header.jpg?t=1785422847.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "492MB",
+                developer: "Mall Together",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.08",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/DkeDCphBB1k", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/7zIgbu", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/3VuaM", icon: "fas fa-download" }
+                ]
+            },
+            machineparty: {
+                title: "Machine Party",
+                description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
+                image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4108000/2e5f2365f00a4f25e8421313b34ac86ea3596473/capsule_616x353.jpg?t=1785909320.png",
+                platform: "PC",
+                rating: 4.9,
+                category: "games",
+                size: "492MB",
+                developer: "Machine Party",
+                releaseYear: "2026",
+                language: "العربية + متعدد اللغات",
+                videoId: "#",
+                version: "v1.0.6",
+                onlineStatus: true, // متاح اونلاين
+                systemRequirements: {
+                    minimum: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i3-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R5 240",
+                        storage: "5 GB متاح"
+                    },
+                    recommended: {
+                        os: "Windows 8/10/11 (64-Bit)",
+                        processor: "Intel i5-4170 @ 3.7Ghz OR Intel i5 750 @ 2.67Ghz",
+                        memory: "8 GB RAM",
+                        graphics: "NVidia 650TI OR AMD R7 250x",
+                        storage: "5 GB متاح"
+                    }
+                },
+                downloadLinks: [
+                    { name: "تحميل اللعبة", url: "https://linkjust.com/Hu6VxAYW3", icon: "fas fa-download" },
+                    { name: "ملف الاونلاين", url: "https://gofile.io/d/oVeeW8", icon: "fas fa-download" },
+                    { name: "تحميل اخر للعبة", url: "https://linkjust.com/fmX126v54hJ", icon: "fas fa-download" }
+                ]
+            },
+            dirtybusiness: {
                 title: "Dirty Business",
                 description: "دةالباسورد بتاع ملفات فك ضغط اللعبة والاونلاين:online-fix.me",
                 image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4324480/0bf41369aa9d8f70fd5b1dfcf9b71b0a5b1074f3/header.jpg?t=1784733062.png",
@@ -194,7 +302,7 @@
                 developer: "Dirty Business",
                 releaseYear: "2026",
                 language: "العربية + متعدد اللغات",
-                videoId: "WCUhRdcLcRY",
+                videoId: "#",
                 version: "v22072026",
                 onlineStatus: true, // متاح اونلاين
                 systemRequirements: {
@@ -230,7 +338,7 @@
                 developer: "Shift At Midnight",
                 releaseYear: "2026",
                 language: "العربية + متعدد اللغات",
-                videoId: "WCUhRdcLcRY",
+                videoId: "#",
                 version: "v1.0.1.0717.2216",
                 onlineStatus: true, // متاح اونلاين
                 systemRequirements: {
