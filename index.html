@@ -83,7 +83,7 @@
         <div class="ticker-title"><i class="fas fa-bolt"></i> <span data-i18n="ticker.title">آخر الاخبار:</span></div>
         <div class="ticker-wrap">
             <div class="ticker-move">
-                <span class="ticker-item">🎮 تم إضافة اخر تحديث للعبة Mecca Chameleon v3.5.2 اللعبة مجاناً بالكامل.</span>
+                <span class="ticker-item">🎮 تم إضافة اخر تحديث للعبة Mecca Chameleon v4.1.0 اللعبة مجاناً بالكامل.</span>
                 <span class="ticker-item">🔥تم العمل الكامل على المتجر الان يمكنكم تجربته وشراء منتجات منه .</span>
                 <span class="ticker-item">🛡️ تم فحص وتأمين جميع روابط تحميل الألعاب لعام 2026.</span>
                 <span class="ticker-item">⭐ تابعنا للحصول على أحدث الألعاب والبرامج أول بأول.</span>
@@ -168,7 +168,7 @@
                 <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
                     <div class="stat-item floating">
                         <i class="fas fa-gamepad stat-icon"></i>
-                        <span class="stat-number" data-count="70">0</span>
+                        <span class="stat-number" data-count="120">0</span>
                         <span class="stat-label">لعبة متاحة</span>
                     </div>
                     <div class="stat-item floating" style="animation-delay: 0.5s;">
@@ -889,6 +889,43 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
 -->
 
+
+
+    <!-- ============ Download Gate Modal (اشترك أولاً) ============ -->
+    <div class="dl-gate" id="dlGate" aria-hidden="true">
+        <div class="dl-gate-box">
+            <button class="dl-gate-close" id="dlGateClose" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+
+            <div class="dl-gate-step" id="dlGateStep1">
+                <div class="dl-gate-ring">
+                    <svg viewBox="0 0 120 120">
+                        <circle class="dl-ring-bg" cx="60" cy="60" r="52"></circle>
+                        <circle class="dl-ring-fg" id="dlRingFg" cx="60" cy="60" r="52"></circle>
+                    </svg>
+                    <span class="dl-gate-count" id="dlGateCount">5</span>
+                </div>
+                <h3>جارٍ تجهيز رابط التحميل...</h3>
+                <p>من فضلك انتظر قليلاً</p>
+            </div>
+
+            <div class="dl-gate-step" id="dlGateStep2" hidden>
+                <h3><i class="fas fa-bell"></i> اشترك في القنوات لتحميل الملف</h3>
+                <p>اشترك في قناة اليوتيوب وتابعنا على تيك توك ثم اضغط على زر التحميل</p>
+                <div class="dl-gate-socials">
+                    <a class="dl-gate-social yt" id="dlGateYT" href="https://www.youtube.com/@MohabGaming17" target="_blank" rel="noopener">
+                        <i class="fab fa-youtube"></i> <span>اشترك في اليوتيوب</span> <i class="fas fa-check dl-gate-tick"></i>
+                    </a>
+                    <a class="dl-gate-social tk" id="dlGateTK" href="https://www.tiktok.com/@mohabgaming18" target="_blank" rel="noopener">
+                        <i class="fab fa-tiktok"></i> <span>تابعنا على تيك توك</span> <i class="fas fa-check dl-gate-tick"></i>
+                    </a>
+                </div>
+                <button class="dl-gate-go" id="dlGateGo" disabled>
+                    <i class="fas fa-download"></i> <span id="dlGateGoText">اشترك في القناتين أولاً</span>
+                </button>
+                <small class="dl-gate-note">شكراً لدعمك ❤️ اشتراكك يساعدنا على الاستمرار</small>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
